@@ -27,7 +27,7 @@
     },
     "OWNER_USERNAME": {
       "description": "Your username",
-      "value": "SonOfLars"
+      "value": "vaishnavboss"
     },
     "WEBHOOK": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode messages",
@@ -79,7 +79,7 @@
     },
     "BMERNU_SCUT_SRELFTI": {
       "description": "please set this value as 0",
-      "value": "1",
+      "value": "0",
       "required": false
     }
   },
