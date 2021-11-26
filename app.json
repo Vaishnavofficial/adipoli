@@ -15,14 +15,14 @@
   "repository": "https://github.com/jithumon/tgbot",
   "env": {
     "ENV": {
-      "description": "Setting this to ANYTHING will enable env variables. But, you need to understand the code to know what to set here!",
+      "description": "Setting this to ANYTHING will enable env variables. Make sure you know the code",
       "value": "ANYTHING"
     },
     "TOKEN": {
-      "description": "Your bot token, as a string."
+      "description": "Your bot token from @botfather."
     },
     "OWNER_ID": {
-      "description": "An integer of consisting of your owner ID",
+      "description": "ID of bot's owner",
       "value": "20516707"
     },
     "OWNER_USERNAME": {
@@ -45,11 +45,11 @@
       "value": "254318997 18673980 83489514"
     },
     "SUPPORT_USERS": {
-      "description": "List of user_ids which should be considered support users (can gban/ungban, nothing else)",
+      "description": "List of user_ids which should be considered support users who can ban/gban users.",
       "value": "254318997 18673980 83489514"
     },
     "WHITELIST_USERS": {
-      "description": "List of user_ids which should be considered whitelisted - they can't be banned.",
+      "description": "List of user_ids which can't be banned.",
       "value": "254318997 18673980 83489514"
     },
    
@@ -70,14 +70,13 @@
       "value": "True"
     },
     "BAN_STICKER": {
-      "description": "Which sticker to use when banning people. Use https://telegram.dog/ShowJsonBot to get the file_id",
+      "description": "Optional: Which sticker to use when banning people.",
       "value": "CAADBQADfQADv7rGI0wxx1ORU7UzAg",
       "required": false
     },
     "BMERNU_SCUT_SRELFTI": {
       "description": "This will set the filter limit. Set it 0 for unlimited filters",
       "value": "0",
-      "required": false
     }
   },
   "addons": [
