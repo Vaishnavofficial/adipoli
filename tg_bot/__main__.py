@@ -23,7 +23,7 @@ Hello {}, my name is {}! I am an admin bot managed by [vaishnav](tg://user?id={}
 
 I am one of the most popular telegram bot. join my group to ask doubts regarding me.
 
-I was created using python3 with SQL database.
+I was created using python3 with the assistance of SQL database.
 
 Just add me to your group and mke me admin.
 
