@@ -21,7 +21,7 @@ PM_START_TEXT = """
 
 Hello {}, my name is {}! I am an admin bot managed by [vaishnav](tg://user?id={}). I am one of the most famous group managers.
 
-I am one of the most popular telegram bot. join my group to ask doubts regarding me.
+. join my group to ask doubts regarding me.
 
 I was created using python3 with the assistance of SQL database.
 
@@ -34,9 +34,9 @@ Hit /help to know about my commands
 """
 
 HELP_STRINGS = """
-Hey there! My name is *{}*.
-I'm a modular group management bot with a few fun extras! Have a look at the following for an idea of some of \
-the things I can help you with.
+Here is the help menu for *{}*.
+This is a modular group management bot with a few fun extras! Have a look at the following for an idea of some of \
+the things This bot can help you with.
 *Main* commands available:
  - /start: start the bot
  - /help: PM's you this message.
@@ -152,7 +152,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                      [InlineKeyboardButton(text= "Assistsnt developer", url="https://t.me/vaishnavboss"), InlineKeyboardButton(text= "Help", url="https://t.me/{}?start=help".format(bot.username)) ]]))
 
     else:
-        update.effective_message.reply_text("ചാവുമ്പോൾ അറിയിക്കാം")
+        update.effective_message.")
 
 
 # for test purposes
