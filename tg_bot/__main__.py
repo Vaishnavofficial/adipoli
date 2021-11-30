@@ -21,9 +21,9 @@ PM_START_TEXT = """
 
 Hello {}, my name is {}! I am an admin bot managed by [vaishnav](tg://user?id={}). I am one of the most famous group managers.
 
-. join my group to ask doubts regarding me.
+Join my group to ask doubts regarding me.
 
-I was created using python3 with the assistance of SQL database.
+I am created using python3 with the assistance of SQL database.
 
 Just add me to your group and mke me admin.
 
@@ -147,9 +147,9 @@ def start(bot: Bot, update: Update, args: List[str]):
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
 
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text= "Add me to your group", url="t.me/{}?startgroup=true".format(bot.username)),  InlineKeyboardButton(text="🤖 DEVELOPER", url="https://t.me/vaishnavgr8")],
-                     [InlineKeyboardButton(text= "movies  Group", url="https://t.me/cinemamalika"), InlineKeyboardButton(text="Support group", url="https://t.me/keralabots")],
-                     [InlineKeyboardButton(text= "Assistsnt developer", url="https://t.me/vaishnavboss"), InlineKeyboardButton(text= "Help", url="https://t.me/{}?start=help".format(bot.username)) ]]))
+                    [[InlineKeyboardButton(text= "➕️Add me to your group➕️", url="t.me/{}?startgroup=true".format(bot.username))
+                     [InlineKeyboardButton(text= "Updates", url="https://t.me/dianasupport"), InlineKeyboardButton(text="Support group", url="https://t.me/keralabots")],
+                     [InlineKeyboardButton(text= " developer", url="https://t.me/vaishnavboss"), InlineKeyboardButton(text= "Help", url="https://t.me/{}?start=help".format(bot.username)) ]]))
 
     else:
         update.effective_message.reply_text("Still alive...")
