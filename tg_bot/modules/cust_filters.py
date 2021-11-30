@@ -94,7 +94,7 @@ def filters(bot: Bot, update: Update):
                 f"The maximum number of filters allowed is {BMERNU_SCUT_SRELFTI}. "
                 "You need to delete some filters "
                 "before being allowed to add more "
-                "or use @kochufilterbot for unlimited filters."
+                "or use @betterfilterbot for unlimited filters."
             )
             return
 
@@ -179,7 +179,7 @@ def filters(bot: Bot, update: Update):
     sql.add_filter(chat_id, keyword, content, is_sticker, is_document, is_image, is_audio, is_voice, is_video,
                    buttons, media_caption, has_caption)
 
-    msg.reply_text("Handler '{}' added in *{}*!".format(keyword, chat_name), parse_mode=telegram.ParseMode.MARKDOWN)
+    msg.reply_text("Filter for `'{}'` has been added in *{}*!".format(keyword, chat_name), parse_mode=telegram.ParseMode.MARKDOWN)
     raise DispatcherHandlerStop
 
 
