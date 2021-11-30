@@ -35,7 +35,7 @@ Hit /help to know about my commands
 
 HELP_STRINGS = """
 Here is the help menu for *{}*.
-This is a modular group management bot with a few fun extras! Have a look at the following for an idea of some of \
+This is a modular group management bot with a few extras! Have a look at the following for an idea of some of \
 the things This bot can help you with.
 *Main* commands available:
  - /start: start the bot
