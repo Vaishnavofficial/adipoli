@@ -19,7 +19,7 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
 
-Hello {}, my name is {}! I am an admin bot managed by [vaishnav](tg://user?id={}
+Hello {}, my name is {}! I am an admin bot managed by [vaishnav](tg://user?id={}). I am one of the most famous group managers.
 
 I am one of the most popular telegram bot. join my group to ask doubts regarding me.
 
