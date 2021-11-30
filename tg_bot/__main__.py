@@ -152,7 +152,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                      [InlineKeyboardButton(text= "Assistsnt developer", url="https://t.me/vaishnavboss"), InlineKeyboardButton(text= "Help", url="https://t.me/{}?start=help".format(bot.username)) ]]))
 
     else:
-        update.effective_message.")
+        update.effective_message.reply_text("Still alive...")
 
 
 # for test purposes
