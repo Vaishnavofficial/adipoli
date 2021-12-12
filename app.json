@@ -21,6 +21,8 @@
     "TOKEN": {
       "description": "Your bot token from @botfather."
     },
+   "BOT_USERNAME": {
+      "description": "Your bot's Username without @."
     "OWNER_ID": {
       "description": "ID of bot's owner",
       "value": "20516707"
