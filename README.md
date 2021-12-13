@@ -23,13 +23,13 @@ Alternatively, [find me on telegram](https://t.me/vaishnavgr8)! (Keep all suppor
 
 
 To deploy me on heroku, use below button:
-<details><summary>DEPLOY TO HEROKU</summary>
+<details><summary><b>DEPLOY TO HEROKU</b></summary>
 
 Deploy Your own Diana to [Heroku](https://dashboard.heroku.com/apps)
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/DashamoolamDaamu/adipoli)
 
-There is also a [tutorial video](https://youtu.be/W6CLKrehy6w) if you want any help on creating heroku clone.
+
 </details>
 ## Starting the bot.
 
