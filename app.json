@@ -21,6 +21,10 @@
     "TOKEN": {
       "description": "Your bot token from @botfather."
     },
+    "MONGODB_URI": {
+       "description": "Optional: Link of mongodb database. Recommended to fill this if you use unlimited filters",
+       "required": false
+    },
    "BOT_USERNAME": {
       "description": "Your bot's Username without @.",
       "value": "dianaYTbot"
