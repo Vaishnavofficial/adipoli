@@ -9,7 +9,7 @@ from telegram.ext import CommandHandler, Filters, MessageHandler, CallbackQueryH
 from telegram.ext.dispatcher import run_async, DispatcherHandlerStop
 from telegram.utils.helpers import escape_markdown
 
-from tg_bot import dispatcher, updater, TOKEN, WEBHOOK, BOT_USERNAME, OWNER_ID, DONATION_LINK, CERT_PATH, PORT, URL, LOGGER, \
+from tg_bot import dispatcher, updater, TOKEN, WEBHOOK, OWNER_ID, DONATION_LINK, CERT_PATH, PORT, URL, LOGGER, \
     ALLOW_EXCL
 # needed to dynamically load modules
 # NOTE: Module order is not guaranteed, specify that in the config file!
@@ -50,8 +50,8 @@ And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
 DONATE_STRING = """
-Heya, want to donate to {}, the creator of {}, but currently donation is unavailable
-""".format(OWNER_USERNAME, dispatcher.bot.first_name)
+Heya, want to donate to the creator of {}, but currently donation is unavailable
+""".format(dispatcher.bot.first_name)
 
 IMPORTED = {}
 MIGRATEABLE = []
