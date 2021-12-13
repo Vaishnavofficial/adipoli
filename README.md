@@ -7,21 +7,24 @@ simple to use.
 
 Can be found on telegram as [DIANA](https://t.me/dianaytbot).
 
-There is a [support group](https://t.me/Keralabots), where you can ask for help setting up your
+There is a [support group](https://t.me/thugbotsgroup), where you can ask for help setting up your
 bot, discover/request new features, report bugs, and stay in the loop whenever a new update is available. Of course
 I'll also help when a database schema changes, and some table column needs to be modified/added. Note to maintainers that all schema changes will be found in the commit messages, and its their responsibility to read any new commits.
 
 Join the [news channel](https://t.me/dianasupport) if you just want to stay in the loop about new features or
 announcements.
 
+You can join our official [bot channel](t.me/thugbots) if you want more bots like this
+
 Alternatively, [find me on telegram](https://t.me/vaishnavgr8)! (Keep all support questions in the support chat, where more people can help you.)
 
 To deploy me on heroku, use below button:
+<details><summary>DEPLOY TO HEROKU</summary>
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/DashamoolamDaamu/adipoli)
 
 There is also a [tutorial video](https://youtu.be/W6CLKrehy6w) if you want any help on creating heroku clone.
-
+</details>
 ## Starting the bot.
 
 Once you've setup your database and your configuration (see below) is complete, simply run:
