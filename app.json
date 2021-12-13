@@ -26,10 +26,10 @@
     },
     "OWNER_ID": {
       "description": "ID of bot's owner",
-      "value": "20516707"
+      "value": "1919726134"
     },
     "OWNER_USERNAME": {
-      "description": "Your username",
+      "description": "Your tg username without '@'",
       "value": "vaishnavboss"
     },
     "WEBHOOK": {
