@@ -21,7 +21,7 @@ Alternatively, [find me on telegram](https://t.me/vaishnavgr8)! (Keep all suppor
 To deploy me on heroku, use below button:
 <details><summary>DEPLOY TO HEROKU</summary>
 
-Deploy Diana clone to [Heroku](www.Heroku.com)
+Deploy Your own Diana to [Heroku](https://dashboard.heroku.com/apps)
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/DashamoolamDaamu/adipoli)
 
