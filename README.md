@@ -18,6 +18,10 @@ You can join our official [bot channel](t.me/thugbots) if you want more bots lik
 
 Alternatively, [find me on telegram](https://t.me/vaishnavgr8)! (Keep all support questions in the support chat, where more people can help you.)
 
+[![telegram badge](https://img.shields.io/badge/Telegram-Group-30302f?style=flat&logo=telegram)](https://telegram.dog/thugbotsgroup)
+[![telegram badge](https://img.shields.io/badge/Telegram-Channel-30302f?style=flat&logo=telegram)](https://telegram.dog/thugbots)
+
+
 To deploy me on heroku, use below button:
 <details><summary>DEPLOY TO HEROKU</summary>
 
