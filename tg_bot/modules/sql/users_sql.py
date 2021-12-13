@@ -8,7 +8,7 @@ from tg_bot.modules.sql import BASE, SESSION
 
 class Users(BASE):
     __tablename__ = "users"
-    user_id = Column(Integer, primary_key=True)
+    user_id = Column(Integer, primary_key=True, BigInteger)
     username = Column(UnicodeText)
 
     def __init__(self, user_id, username=None):
