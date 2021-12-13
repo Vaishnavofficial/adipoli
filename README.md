@@ -1,5 +1,5 @@
 # DIANA❤
-<img src="https://telegra.ph/file/315d3558cb69cf934564b.jpg">
+<img src="https://telegra.ph/file/7522a9bf5c93c660cd6ae.jpg">
 A modular telegram Python bot running on python3 with an sqlalchemy database.
 
 Originally a simple group management bot with multiple admin features, it has evolved, becoming extremely modular and 
