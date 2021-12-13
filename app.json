@@ -22,7 +22,8 @@
       "description": "Your bot token from @botfather."
     },
    "BOT_USERNAME": {
-      "description": "Your bot's Username without @."
+      "description": "Your bot's Username without @.",
+      "value": "dianaYTbot"
     },
     "OWNER_ID": {
       "description": "ID of bot's owner",
