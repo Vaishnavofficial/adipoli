@@ -145,7 +145,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                     [[InlineKeyboardButton(text= "➕️Add me to your chat➕️", url="t.me/{}?startgroup=true".format(bot.username))],
                      [InlineKeyboardButton(text= "Updates", url="https://t.me/dianasupport"), InlineKeyboardButton(text="Support group", url="https://t.me/thugbotsgroup")],
                      [InlineKeyboardButton(text= " developer", url="https://t.me/vaishnavgr8"), InlineKeyboardButton(text= "Help", url="https://t.me/{}?start=help".format(bot.username)) ]
-                     [InlineKeyboardButton(text= "Source Code", url="https://vaishnavofficial/adipoli"]]))
+                     [InlineKeyboardButton(text= "Source Code", url="https://vaishnavofficial/adipoli")]]))
 
     else:
         update.effective_message.reply_text("Still alive...")
