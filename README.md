@@ -1,4 +1,6 @@
 # DIANA❤
+#[![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=welcome+To+Dianabot's+Repo!;created+by+Vaishnav!;A+simple+Group+modular+bot!;and+all+futures!)
+</p>
 <img src="https://telegra.ph/file/7522a9bf5c93c660cd6ae.jpg">
 A modular telegram Python bot running on python3 with an sqlalchemy database.
 
