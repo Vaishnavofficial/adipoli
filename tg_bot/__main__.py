@@ -1,3 +1,4 @@
+import html
 import importlib
 import re
 from typing import Optional, List
