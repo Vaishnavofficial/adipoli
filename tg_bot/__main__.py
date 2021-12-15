@@ -21,7 +21,8 @@ PM_START_TEXT = """
 
 Hello {}, my name is {}! I am an admin bot managed by [My owner](tg://user?id={}). I am one of the most popular group managers.
 Join my group to ask doubts regarding me.
-Just add me to your group and mke me admin.
+I am an open-source project. My source code is uploaded [here](https://github.com/Vaishnavofficial/adipoli)
+Just add me to your group and make me admin.
 Use my commands to operate me.
 Hit /help to know about my commands
 
@@ -29,16 +30,18 @@ Hit /help to know about my commands
 
 HELP_STRINGS = """
 Here is the help menu for *{}*.
-This is a modular group management bot with a few extras! Have a look at the following for an idea of some of \
-the things This bot can help you with.
+
+`This is a modular group management bot with a few extras! Have a look at the following for an idea of some of \
+the things This bot can help you with.`
 *Main* commands available:
+<code>
  - /start: start the bot
  - /help: PM's you this message.
  - /help <module name>: PM's you info about that module.
  - /donate: information about how to donate!
  - /settings:
    - in PM: will send you your settings for all supported modules.
-   - in a group: will redirect you to pm, with all that chat's settings.
+   - in a group: will redirect you to pm, with all that chat's settings.</code>
 {}
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
@@ -143,11 +146,11 @@ def start(bot: Bot, update: Update, args: List[str]):
 
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
                     [[InlineKeyboardButton(text= "➕️Add me to your chat➕️", url="t.me/{}?startgroup=true".format(bot.username))],
-                     [InlineKeyboardButton(text= "Updates", url="https://t.me/dianasupport"), InlineKeyboardButton(text="Support group", url="https://t.me/keralabots")],
+                     [InlineKeyboardButton(text= "Updates", url="https://t.me/dianasupport"), InlineKeyboardButton(text="Support group", url="https://t.me/thugbotsgroup")],
                      [InlineKeyboardButton(text= " developer", url="https://t.me/vaishnavgr8"), InlineKeyboardButton(text= "Help", url="https://t.me/{}?start=help".format(bot.username)) ]]))
 
     else:
-        update.effective_message.reply_text("Still alive...")
+        update.effective_message.reply_text("{} here! PM me if you want help in using me 😊...".format(dispatcher.bot.first_name)
 
 
 # for test purposes
