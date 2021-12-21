@@ -4,7 +4,8 @@
 <img src="https://telegra.ph/file/7522a9bf5c93c660cd6ae.jpg">
 <a href="https://www.python.org">
     <img src="http://ForTheBadge.com/images/badges/made-with-python.svg">
-  </a>
+  </a><br>
+<br>
 A modular telegram Python bot running on python3 with an sqlalchemy database.
 
 Originally a simple group management bot with multiple admin features, it has evolved, becoming extremely modular and 
