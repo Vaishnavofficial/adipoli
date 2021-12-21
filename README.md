@@ -2,6 +2,9 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=welcome+To+Dianabot's+Repo!;created+by+Vaishnav!;A+simple+Group+modular+bot!;and+all+futures!)
 </p>
 <img src="https://telegra.ph/file/7522a9bf5c93c660cd6ae.jpg">
+<a href="https://www.python.org">
+    <img src="http://ForTheBadge.com/images/badges/made-with-python.svg">
+  </a>
 A modular telegram Python bot running on python3 with an sqlalchemy database.
 
 Originally a simple group management bot with multiple admin features, it has evolved, becoming extremely modular and 
